@@ -1,0 +1,15 @@
+lecture Part-06 header
+
+In Rails, we use partial files to render parts of a view, 
+similar to how components are used in React. These partial files have names that start with an underscore, such as _name.html.erb.
+
+Device Gem
+Whenever we migrate a database, we need to restart the server.
+
+For the Devise gem, we can add it to the Gemfile and then run bundle install, or we can install it via the terminal using the command gem install devise.
+
+After installing the Devise gem, we run rails generate devise:install and follow all the steps printed in the terminal.
+
+Then, we create a Devise model.
+
+testing working or not :- http://localhost:3000/users/sign_up
